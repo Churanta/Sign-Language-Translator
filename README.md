@@ -29,17 +29,18 @@ The Sign Language Translator is a web application that utilizes machine learning
 7. **Interact with the Application**: Perform gestures in front of the webcam to trigger recognition. Speak voice commands to interact with the application.
 
 ## Screenshots
+
 #### This page is the home screen
+
 ![Entry page](Screenshots/1.png)
+
 #### This is the page where we will train the model
+
 ![Training page](Screenshots/2.png)
-#### This page is for live translating the sign language 
-<!-- ![Testing Page](Screenshots/3.mp4) -->
-<!-- <video width="320" height="240" controls>
-  <source src="video_url" type="Screenshots/3.mp4">
-  Your browser does not support the video tag.
-</video> -->
-[![Video Title](Screenshots/1.png)](Screenshots/3.mp4)
+
+#### This page is for live translating the sign language
+
+https://github.com/Churanta/Sign-Language-Translator/assets/83538805/784ee842-4b84-4514-90ad-3aaa6768b350
 
 ## Dependencies
 
@@ -94,4 +95,5 @@ After the model is loaded successfully, the `startPredicting()` function is call
 Inside the `predict()` function, which is called repeatedly, the current webcam image is captured, and the KNN model predicts the class of the captured image. If a prediction above a certain confidence threshold is made and it's a new prediction (i.e., not the same as the previous prediction), it triggers an action, such as speaking the recognized word using text-to-speech.
 
 The JavaScript code for training in the Sign Language Translator project enables users to capture webcam images as training examples for different classes and uses a KNN image classifier to perform real-time recognition of gestures or words based on the trained model. This allows for interactive translation of sign language gestures into text.
+
 # Sign-Language-Translator
