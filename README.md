@@ -39,7 +39,7 @@ The Sign Language Translator is a web application that utilizes machine learning
   <source src="video_url" type="Screenshots/3.mp4">
   Your browser does not support the video tag.
 </video> -->
-[![Video Title](thumbnail_image_url)](Screenshots/3.mp4)
+[![Video Title](Screenshots/1.png)](Screenshots/3.mp4)
 
 ## Dependencies
 
