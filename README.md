@@ -34,7 +34,11 @@ The Sign Language Translator is a web application that utilizes machine learning
 #### This is the page where we will train the model
 ![Training page](Screenshots/2.png)
 #### This page is for live translating the sign language 
-![Testing Page](Screenshots/3.mp4)
+<!-- ![Testing Page](Screenshots/3.mp4) -->
+<video width="320" height="240" controls>
+  <source src="video_url" type="Screenshots/3.mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Dependencies
 
